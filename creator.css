@@ -1,0 +1,15 @@
+#creating {
+	color: white;
+    position: absolute;
+    white-space: nowrap;
+    -webkit-animation: rightThenLeft 15s linear;
+    animation-iteration-count: infinite;
+}
+body {
+	background-color: black;
+}
+@-webkit-keyframes rightThenLeft {
+    0%   {left: 0%;}
+    50%  {left: 60%;}
+    100% {left: 0%;}
+}
